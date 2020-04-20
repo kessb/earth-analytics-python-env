@@ -1,4 +1,4 @@
-name: earth-analytics-python
+name: nature-serve-env
 channels:
   - conda-forge
   - defaults
@@ -13,14 +13,16 @@ dependencies:
   - seaborn
   - tqdm
   - kiwisolver
-
   # Spatial packages
-  #- rasterio  
+  - rasterio  
   - pysal
   - pyproj
   - rasterstats
   - geopy
   - cartopy
+  - laspy
+  - spectral
+  - whitebox
   #- geopandas
   - contextily
   - earthpy
