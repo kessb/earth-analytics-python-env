@@ -13,6 +13,8 @@ dependencies:
   - seaborn
   - tqdm
   - kiwisolver
+  # Data gathering
+  - usgs
   # Spatial packages
   - rasterio  
   - pysal
